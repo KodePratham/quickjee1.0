@@ -173,3 +173,19 @@ body {
     height: 280px;
 }
 
+.f01{
+    scale: 1;
+}
+.f02{
+    scale: 2;
+}
+
+.f03{
+    scale: 1.5;
+}
+
+
+
+h4,h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
