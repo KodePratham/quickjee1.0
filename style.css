@@ -18,59 +18,31 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    
+        
 }
 
-.phy-button{
-    background-color: rgb(17, 230, 230);
+
+.sub-button{
+    background-color: white;
     cursor: pointer;
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 20px;
     border-radius: 20px;
-    border-color: cyan;
-    border-width: 10px;
-    color: white;
+    color: black;
     margin: 20px;
     width: 500px;
     border: none;
-    
+       
+}
+.sub-icon-img{
+    height: 80px;
+    width: 80px;
+    display: none;
     
 }
 
-.chem-button{
-    background-color: rgb(25, 207, 25);
-    cursor: pointer;
-    font-size: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 20px;
-    border-radius: 20px;
-    border-width: 10px;
-    border-color: green;
-    color: white;
-    margin: 20px;
-    width: 500px;
-    border: none;
-    
-    
-}
 
-.math-button{
-    background-color: rgb(214, 38, 38);
-    cursor: pointer;
-    font-size: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 20px;
-    border-radius: 20px;
-    border-width: 10px;
-    border-color: red;
-    color: white;
-    margin: 20px;
-    width: 500px;
-    border: none;
-    
-}
 
 .subtitle{
     color: white;
@@ -91,12 +63,11 @@ body {
     width: 800px;
     font-size: 40px;
     border-width: 10px;
-    background-color: rgb(17, 230, 230);
-    color: white;
+    background-color: white;
+    color: black;
     margin: 30px;
     font-family: 'Times New Roman', Times, serif;
-    border-radius: 30px;
-    border-color: cyan;
+    border-radius: 20px;
     border: none;
     
     
@@ -163,8 +134,8 @@ body {
 }
 
 .flashcard .back {
-    background-color: #333;
-    color: #fff;
+    background-color: white;
+    color: black;
     transform: rotateY(180deg);
 }
 
@@ -184,8 +155,46 @@ body {
     scale: 1.5;
 }
 
-
-
 h4,h2, h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+
+
+
+/*  resposive from below  */
+
+
+@media screen and (max-width: 1179px) {
+
+    .Buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+        
+    }
+ 
+   .sub-button{
+    width: 800px;
+    font-size: 100px;
+    height: 190px;
+    border-radius: 37px;
+    }
+
+    .Heading{
+        margin-top: 500px;
+        font-size: 120px;
+    }
+
+    .phybutton{
+        font-size: 70px;
+        padding: 20px;
+        
+    }
+
+
+  }
+
+
