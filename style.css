@@ -1,10 +1,17 @@
 body {
     
-    background-color: black;
+   background-color: black;
+   
 }
+
+.home{
+    background-image: url(images/back.png);
+}
+
+
 .name {
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center; 
     font-size: 100px;
     font-weight: 800;
@@ -23,16 +30,16 @@ body {
 
 
 .sub-button{
-    background-color: white;
+    background-color: black;
     cursor: pointer;
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 20px;
     border-radius: 20px;
-    color: black;
+    color: white;
     margin: 20px;
     width: 500px;
-    border: none;
+    border-color: white;
        
 }
 .sub-icon-img{
@@ -48,7 +55,7 @@ body {
     color: white;
     text-align: center;
     font-size: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 100;
 }
 
@@ -62,13 +69,12 @@ body {
     padding: 10px;
     width: 800px;
     font-size: 40px;
-    border-width: 10px;
-    background-color: white;
-    color: black;
-    margin: 30px;
+    background-color: black;
+    color: white;
+    margin: 10px;
     font-family: 'Times New Roman', Times, serif;
     border-radius: 20px;
-    border: none;
+    border-color: white;
     
     
 }
@@ -125,17 +131,18 @@ body {
     align-items: center;
     padding: 20px; /* Maintain padding for content */
     border-radius: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid white;
     box-sizing: border-box;
 }
 
 .flashcard .front {
-    background-color: #fff;
+    background-color: black;
+    color: white;
 }
 
 .flashcard .back {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     transform: rotateY(180deg);
 }
 
@@ -166,6 +173,12 @@ h4,h2, h3 {
 
 
 @media screen and (max-width: 1179px) {
+
+    .home{
+        background-image: url(images/Quick\ Jee\ \(3\).png);
+    }
+
+   
 
     .Buttons{
         display: flex;
